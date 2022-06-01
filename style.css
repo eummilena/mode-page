@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.darkMode {
+    background: black;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: #ccc;
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+button:hover {
+    background: black;
+    color: #fff;
+}
+
+
+h1.darkMode {
+    color: #fff;
+}
+
+button.darkMode:hover {
+    background: white;
+    color: black;
+}
+
+button.darkMode {
+    background-color: #e5e8e8;
+    color: #4e545c;
+}
